@@ -10,24 +10,23 @@
 
 ## 📂 Структура проекта
 
-```
-
+```text
 src/
 ├── components/        # Глупые (presentational) компоненты
-│    ├── TodoApp.tsx
-│    ├── TodoInput.tsx
-│    ├── TodoItem.tsx
-│    ├── TodoList.tsx
-│    └── Filters.tsx
+│   ├── TodoApp.tsx
+│   ├── TodoInput.tsx
+│   ├── TodoItem.tsx
+│   ├── TodoList.tsx
+│   └── Filters.tsx
 ├── containers/        # Умный контейнер
-│    └── TodoAppContainer.tsx
+│   └── TodoAppContainer.tsx
 ├── hooks/             # Кастомные хуки
-│    └── useTodos.ts
+│   └── useTodos.ts
 ├── domain/            # Бизнес-логика (редьюсер и селекторы)
-│    └── todos.ts
+│   └── todos.ts
 ├── utils/             # Вспомогательные функции
-│    ├── id.ts
-│    └── storage.ts
+│   ├── id.ts
+│   └── storage.ts
 ├── types.ts           # Типы данных
 ├── constants.ts       # Константы
 ├── index.tsx          # Точка входа с MUI Theme
