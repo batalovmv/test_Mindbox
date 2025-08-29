@@ -9,9 +9,7 @@
 
 ## 🚀 Демо
 Приложение задеплоено на GitHub Pages:  
-👉 https://USERNAME.github.io/REPO
-
-> Замените `USERNAME` и `REPO` на ваши данные GitHub.
+👉 https://batalovmv.github.io/test_Mindbox
 
 ---
 
